@@ -1,6 +1,6 @@
 
-# Aplicativo desenvolvido com React Native.
- ### Principais bibliotecas usadas.
+# Aplicativo desenvolvido com REACT-NATIVE.
+ ### Principais bibliotecas utilizadas.
   - Axios.
   - Styled component.
   - Redux/React-Redux/Redux-saga
