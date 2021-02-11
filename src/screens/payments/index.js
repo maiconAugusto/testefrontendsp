@@ -239,7 +239,7 @@ const Payment = ({navigation, route}) => {
                       }}
                     />
                     <TextBold
-                      data={`R$ ${applyDiscount(
+                      data={`- R$ ${applyDiscount(
                         coursePrice,
                         percentCalculation(coursePrice, percent),
                       )}`}
