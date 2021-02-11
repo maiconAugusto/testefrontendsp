@@ -74,7 +74,8 @@ const CarouselComponent = ({data, navigation}) => {
         </HeaderCard>
         <HeaderBody>
           {renderDescription(item.description)}
-          <View style={{flexDirection: 'row', marginTop: 22}}>
+          <View
+            style={{flexDirection: 'row', marginTop: 22, alignItems: 'center'}}>
             <TextBold
               data="Duração:"
               style={{
@@ -102,7 +103,7 @@ const CarouselComponent = ({data, navigation}) => {
               justifyContent: 'center',
               alignItems: 'center',
             }}>
-            <View style={{width: '50%', marginBottom: 0}}>
+            <View style={{width: '50%', marginBottom: -4}}>
               <TextInfo
                 style={{color: '#707070', fontSize: 10}}
                 data="Investimento:"
@@ -138,7 +139,7 @@ const CarouselComponent = ({data, navigation}) => {
               color="#FF8686"
               data="Comprar"
               uppercase={false}
-              style={{borderRadius: 8, width: 150, marginBottom: 10}}
+              style={{borderRadius: 8, width: 150, marginBottom: 18}}
               contentStyle={{height: 40, width: 147}}
               labelStyle={{
                 color: 'white',
