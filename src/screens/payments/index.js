@@ -210,9 +210,9 @@ const Payment = ({navigation, route}) => {
                         marginTop: 2,
                         fontFamily: 'HelveticaNeue Light',
                       }}
-                      data={convertSuffix(
+                      data={`- ${convertSuffix(
                         String(percentCalculation(coursePrice, percent)),
-                      )}
+                      )}`}
                     />
                   </Row>
                   <Divider
@@ -239,7 +239,7 @@ const Payment = ({navigation, route}) => {
                       }}
                     />
                     <TextBold
-                      data={`- R$ ${applyDiscount(
+                      data={` R$ ${applyDiscount(
                         coursePrice,
                         percentCalculation(coursePrice, percent),
                       )}`}
