@@ -185,7 +185,9 @@ const Payment = ({navigation, route}) => {
                         marginTop: 2,
                         fontFamily: 'HelveticaNeue Light',
                       }}
-                      data={convertSuffix(parseFloat(coursePrice).toFixed(2))}
+                      data={`R$ ${convertSuffix(
+                        parseFloat(coursePrice).toFixed(2),
+                      )}`}
                     />
                   </Row>
                   <Row
@@ -210,7 +212,7 @@ const Payment = ({navigation, route}) => {
                         marginTop: 2,
                         fontFamily: 'HelveticaNeue Light',
                       }}
-                      data={`- ${convertSuffix(
+                      data={`- R$ ${convertSuffix(
                         String(percentCalculation(coursePrice, percent)),
                       )}`}
                     />
