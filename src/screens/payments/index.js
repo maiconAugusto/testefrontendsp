@@ -37,7 +37,7 @@ const Payment = ({navigation, route}) => {
     cardNumber: Yup.string()
       .required(errorMessage)
       .min(14, errorMessage)
-      .max(20, errorMessage),
+      .max(25, errorMessage),
     cardValidate: Yup.string().required(errorMessage).min(5, errorMessage),
     cvv: Yup.string().required(errorMessage).min(3, errorMessage),
   });
