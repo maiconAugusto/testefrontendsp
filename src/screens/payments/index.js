@@ -89,6 +89,7 @@ const Payment = ({navigation, route}) => {
                     value={values.cardNumber}
                     returnKeyType="done"
                     error={isValid}
+                    maxLength={16}
                     type="custom"
                     keyboardType="numeric"
                     autoFocus

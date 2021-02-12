@@ -11,6 +11,7 @@ const Notification = ({info, message, onPress}) => {
         <TextInfo
           style={{
             fontSize: 24,
+            color: '#707070',
             textAlign: 'center',
             fontFamily: 'HelveticaNeue Light',
           }}
@@ -25,6 +26,7 @@ const Notification = ({info, message, onPress}) => {
           style={{
             fontSize: 14,
             fontFamily: 'HelveticaNeue Light',
+            color: '#707070',
             textAlign: 'center',
           }}
           data={message}
